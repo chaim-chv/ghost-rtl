@@ -1,8 +1,8 @@
 name: Deploy Theme
 on:
-  push:
-    branches:
-      - main
+    schedule:
+    - cron:  '*/5 * * * *'
+      
 jobs:
   deploy:
     runs-on: ubuntu-18.04
