@@ -1,0 +1,95 @@
+/* RTL support: */
+body {
+  text-align: right;
+  direction: rtl;
+  font-family: "Arimo"
+}
+
+.site-nav-logo {
+  margin-right: 0;
+  margin-left: 32px;
+}
+
+.site-nav-left {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.site-nav-left .nav li:last-of-type {
+  padding-right: 0;
+  padding-left: 20px;
+}
+
+.nav-post-title.dash {
+  left: auto;
+  right: -25px;
+}
+
+.site-nav-main .site-nav-left-wrapper:after {
+  right: auto;
+  left: 0;
+}
+
+.author-header-content {
+  margin: 5px 30px 0 0;
+}
+
+.author-card .author-info {
+  margin: 0 20px 0 0;
+}
+
+.subscribe-overlay button {
+  margin: 0 15px 0 0;
+}
+
+.subscribe-form button {
+  margin: 0 10px 0 0 ;
+}
+
+@media (min-width: 795px) {
+  .post-card-large .post-card-content-link,
+  .post-card-large .post-card-meta {
+    padding: 0 40px 0 0;
+    font-family: "Arimo"
+  }
+}
+
+.post-card-byline-content {
+  margin: 2px 6px 0 0;
+  font-family: "Arimo"
+}
+
+.static-avatar {
+  margin: 0 -6px 0 0;
+  font-family: "Arimo"
+}
+
+.post-full-byline-content .author-list {
+  padding: 0 0 0 12px;
+  font-family: "Arimo"
+}
+
+.author-list {
+  margin: 0 4px 0 0;
+}
+
+.post-full-content blockquote {
+  border-left: 0;
+  border-right: 3px solid #3eb0ef;
+  font-family: "Arimo"
+}
+
+.post-content {
+  font-family: "arimo"
+    }
+
+.site-footer-nav a {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.site-footer-nav a:before {
+  left: auto;
+  right: -11px;
+}
+/* end of RTL support*/

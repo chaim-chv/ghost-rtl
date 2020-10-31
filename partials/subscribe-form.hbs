@@ -1,0 +1,19 @@
+<section class="subscribe-form">
+    <h3 class="subscribe-form-title">הירשם ל-{{@site.title}}</h3>
+    <p class="subscribe-form-description">קבל עדכונים למייל על פוסטים חדשים</p>
+    <form data-members-form="subscribe">
+        <div class="form-group">
+            <input class="subscribe-email" data-members-email placeholder="youremail@example.com" autocomplete="false" />
+            <button class="button primary" type="submit">
+                <span class="button-content">הירשם</span>
+                <span class="button-loader">{{> "icons/loader"}}</span>
+            </button>
+        </div>
+        <div class="message-success">
+            <strong>מעולה!</strong> בדוק בתיבת המייל שלך - נשלח אליך מייל אימות
+        </div>
+        <div class="message-error">
+            הכנס כתובת מייל תקינה
+        </div>
+    </form>
+</section>
