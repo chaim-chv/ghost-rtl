@@ -8,8 +8,9 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      - uses: TryGhost/action-deploy-theme@v1.4.1
+      - name: Deploy Ghost Theme
+        uses: TryGhost/action-deploy-theme@v1.4.0
         with:
-          api-url: https://chvblog.herokuapp.com/ghost/api/v3/admin
-          api-key: 5f9dd5cb6cd104001e91b923:965d44d9ae354ca58c04adf52ee71aff0830c413dfc8c3b30ea259d6e5c0cf1d
+          api-url: ${{ secrets.GHOST_ADMIN_API_URL }}
+          api-key: ${{ secrets.GHOST_ADMIN_API_KEY }}
           theme-name: "casper-rtl"
