@@ -10,6 +10,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: TryGhost/action-deploy-theme@v1.4.1
         with:
-          api-url: ${{ https://chvblog.herokuapp.com/ghost/api/v3/admin/ }}
-          api-key: ${{ secret.5f9dd5cb6cd104001e91b923:965d44d9ae354ca58c04adf52ee71aff0830c413dfc8c3b30ea259d6e5c0cf1d }}
+          api-url: https://chvblog.herokuapp.com/ghost/api/v3/admin/
+          api-key: 5f9dd5cb6cd104001e91b923:965d44d9ae354ca58c04adf52ee71aff0830c413dfc8c3b30ea259d6e5c0cf1d
           theme-name: "casper-rtl"
