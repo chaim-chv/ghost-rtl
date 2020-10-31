@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      - uses: TryGhost/action-deploy-theme@v1.3.1
+      - uses: TryGhost/action-deploy-theme@v1.4.1
         with:
           api-url: ${{ secrets.https://chvblog.herokuapp.com }}
           api-key: ${{ secrets.5f9dd5cb6cd104001e91b923:965d44d9ae354ca58c04adf52ee71aff0830c413dfc8c3b30ea259d6e5c0cf1d }}
