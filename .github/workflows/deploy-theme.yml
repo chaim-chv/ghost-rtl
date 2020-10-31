@@ -11,5 +11,5 @@ jobs:
       - uses: TryGhost/action-deploy-theme@v1.4.1
         with:
           api-url: ${{ secrets.https://chvblog.herokuapp.com }}
-          api-key: ${{ secrets.5f9dd5cb6cd104001e91b923:965d44d9ae354ca58c04adf52ee71aff0830c413dfc8c3b30ea259d6e5c0cf1d }}
+          api-key: ${{ secrets.349b09caf134a4b8cff016b9fa }}
           theme-name: "casper-rtl"
