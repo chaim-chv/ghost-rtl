@@ -1,5 +1,7 @@
 name: Deploy Theme
 on:
+    repository_dispatch:
+    types: deploy-theme
     schedule:
     - cron:  '*/5 * * * *'
       
