@@ -1,10 +1,8 @@
 name: Deploy Theme
 
 on:
-  repository_dispatch:
-    types: do-something
   schedule:
-    - cron:  '*/5 * * * *'
+    - cron:  '*/1 * * * *'
       
 jobs:
   deploy:
