@@ -25,3 +25,17 @@ now go to the repository on github, where you fork this repository, go to settin
 create one more secret with the name ``GHOST_ADMIN_API_URL``, paste the URL in the value.
 
 now the theme will pushed to your site every 5 minutes (i do it like that because of my needs, you can manage that in the workflow file to push event or like).
+
+## ערכת הנושא Casper - ערוכה לעברית RTL
+
+במאגר זה שמתי את ערכת הנושא שערכתי לפלטפורמת הבלוגים Ghost - ערכת הנושא מותאמת לעברית הן מבחינת כיווני הטקסט והן מבחינת תרגום.
+
+כל הטסקטים בכל הדפים של Ghost ייושרו לימין, עם תמיכה מלאה ב-RTL - ימין לשמאל. האנגלית שבתוך הטקסט מסתדרת מעולה ולא מתבלבלת.
+
+כל הטקסטים האוטומטיים (כגון "שתי דקות קריאה" וכדו') תורגמו לעברית.
+
+## העלאה אוטומטית לאתר שלכם
+
+קראו כאן איך להגדיר בצורה הנכונה את ה-workflow שיעלה את ערכת הנושא שאתם עורכים בגיטהב, לבלוג שלכם.
+
+זה יכול להיות שימושי מאוד, ובעיקר עזר לי בהגנה מפני קריסות.
