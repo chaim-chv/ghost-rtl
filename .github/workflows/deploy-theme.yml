@@ -2,7 +2,7 @@ name: Deploy Theme
 
 on:
   schedule:
-    - cron:  '*/5 * * * *'
+    - cron:  '1 * * * *'
       
 jobs:
   deploy:
