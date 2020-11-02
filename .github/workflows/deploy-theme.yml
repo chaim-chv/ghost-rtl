@@ -2,9 +2,7 @@ name: Deploy Theme
 
 on:
   repository_dispatch:
-        types: [start-example-workflow]
-  schedule:
-    - cron:  '* * * * *'
+        types: [fix-website]
       
 jobs:
   deploy:
