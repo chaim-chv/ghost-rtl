@@ -1,8 +1,8 @@
 {
-    "name": "casper-rtl-chv",
+    "name": "casper-rtl",
     "description": "A clean, minimal default theme for the Ghost publishing platform",
-    "demo": "https://demo.ghost.io",
-    "version": "3.1.3",
+    "demo": "https://blog.chv.ovh",
+    "version": "3.1.4",
     "engines": {
         "ghost": ">=3.0.0",
         "ghost-api": "v3"
@@ -37,9 +37,9 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/TryGhost/Casper.git"
+        "url": "https://github.com/chaim-chv/ghost-rtl.git"
     },
-    "bugs": "https://github.com/TryGhost/Casper/issues",
+    "bugs": "https://github.com/chaim-chv/ghost-rtl/issues",
     "devDependencies": {
         "@tryghost/release-utils": "0.6.7",
         "autoprefixer": "10.0.1",
